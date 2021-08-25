@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
-**shell_exit - exits the shell
-**Return: void
+**shell_exit -a
+**Return:a
 **/
 
 	int shell_exit(void)
@@ -11,8 +11,8 @@
 
 
 /**
-**shell_env - prints environment
-**Return: void
+**shell_env -a
+**Return:a
 **/
 
 	int shell_env(void)
