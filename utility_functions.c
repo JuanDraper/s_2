@@ -52,6 +52,7 @@ int _strncmp(char *name, char *variable, unsigned int length)
  * @dest: a
  * @src: a
  * Return: a
+ */
 char *_strcpy(char *dest, char *src)
 {
 	int i;
@@ -63,7 +64,8 @@ char *_strcpy(char *dest, char *src)
 	return (dest);
 }
 /**
- * _strlen -a
+ * _strlen - a
+ *@s: a
  * Return: a
  */
 int _strlen(char *s)
