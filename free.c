@@ -1,13 +1,13 @@
 #include "holberton.h"
 
 /**
- * free_all - frees all malloc'd space at end of main loop
- * @tokens: pointer to tokens array
- * @path: pointer to path variable
- * @line: pointer to user input buffer
- * @fullpath: pointer to full path
- * @flag: flag marking if full_path was malloc'd
- * Return: void
+ * free_all -a
+ * @tokens: a
+ * @path: a
+ * @line: a
+ * @fullpath: a
+ * @flag: a
+ * Return: a
  */
 void free_all(char **tokens, char *path, char *line, char *fullpath, int flag)
 {
@@ -19,10 +19,10 @@ void free_all(char **tokens, char *path, char *line, char *fullpath, int flag)
 }
 
 /**
- * free_dp - free double pointer
- * @array: double pointer to free
- * @length: length of double pointer
- * Return: void
+ * free_dp - a
+ * @array:a
+ * @length: a
+ * Return: a
  */
 void free_dp(char **array, unsigned int length)
 {
