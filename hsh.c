@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
- * main - main loop of shell
- * Return: 0 on success
+ * main - z
+ * Return: a
  */
 int main(void)
 {
