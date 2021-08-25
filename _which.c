@@ -20,7 +20,6 @@ char *_which(char *command, char *fullpath, char *path)
 		return (NULL);
 	}
 	_strcpy(path_copy, path);
-	
 	token = strtok(path_copy, ":");
 	if (token == NULL)
 		token = strtok(NULL, ":");
