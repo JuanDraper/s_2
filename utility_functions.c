@@ -1,11 +1,11 @@
 #include "holberton.h"
 
 /**
- * _strcmp - compares two strings to find out if they are exactly the same
- * @name: name supplied by user to search for
- * @variable: variable to compare against
- * @length: length of name
- * Return: 1 if strings are equal, -1 if they are not
+ * _strcmp - a
+ * @name: a
+ * @variable: a
+ * @length: a
+ * Return: a
  */
 int _strcmp(char *name, char *variable, unsigned int length)
 {
@@ -27,12 +27,11 @@ int _strcmp(char *name, char *variable, unsigned int length)
 }
 
 /**
- * _strncmp - compares two strings
- * up to given length are the same
- * @name: name supplied by user to search for
- * @variable: variable to compare against
- * @length: length to compare up to
- * Return: 1 if strings are equal, -1 if they are not
+ * _strncmp - a
+ * @name: a
+ * @variable: a
+ * @length:a
+ * Return: a
  */
 int _strncmp(char *name, char *variable, unsigned int length)
 {
@@ -49,11 +48,10 @@ int _strncmp(char *name, char *variable, unsigned int length)
 }
 
 /**
- * *_strcpy - copies string pointed to by src to the buffer pointed to dest
- * @dest: string destination
- * @src: string source
- * Return: the pointer to dest
- */
+ * *_strcpy - a
+ * @dest: a
+ * @src: a
+ * Return: a
 char *_strcpy(char *dest, char *src)
 {
 	int i;
@@ -65,9 +63,8 @@ char *_strcpy(char *dest, char *src)
 	return (dest);
 }
 /**
- * _strlen - returns the length of a string
- * @s: string to be evaluated
- * Return: length of string
+ * _strlen -a
+ * Return: a
  */
 int _strlen(char *s)
 {
