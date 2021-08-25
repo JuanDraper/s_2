@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * tokenizer - tokenizes string
- * @str: user input
- * Return: pointer to array of tokens
+ * tokenizer -a
+ * @str: a
+ * Return: a
  */
 char **tokenizer(char *str)
 {
