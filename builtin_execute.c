@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
-**builtin_execute - executes the built in functions
-**@tokens: arguments being passed
-**Return: tokens
+**builtin_execute -a
+**@tokens: a
+**Return: a
 **/
 int builtin_execute(char **tokens)
 {
