@@ -1,10 +1,9 @@
 #include "holberton.h"
 /**
- * _which - searches directories in PATH variable for command
- * @command: to search for
- * @fullpath: full path of command to execute
- * @path: full PATH variable
- * Return: pointer to full_path
+ * _which - a
+ * @command: a
+ * @fullpath: a
+ * Return: a
  */
 char *_which(char *command, char *fullpath, char *path)
 {
