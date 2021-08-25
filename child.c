@@ -1,10 +1,10 @@
 #include "holberton.h"
 
 /**
- * child - function for child process
- * @fullpath: full path of executable
- * @tokens: tokenized user input
- * Return: 0 on success
+ * child - a
+ * @fullpath: a
+ * @tokens: a
+ * Return: a
  */
 int child(char *fullpath, char **tokens)
 {
